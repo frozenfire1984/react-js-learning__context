@@ -1,6 +1,14 @@
 import {createContext} from 'react';
 
 export const themes = {
+    // light: {
+    //     background: 'hsl(0, 0%, 93%)',
+    //     textColor: 'hsl(0, 0%, 10%)',
+    // },
+    // dark: {
+    //     background: 'hsl(0, 0%, 20%)',
+    //     textColor: 'hsl(0, 0%, 90%)',
+    // },
     light: {
         background: 'white',
         textColor: 'black',
@@ -11,7 +19,7 @@ export const themes = {
     },
 }
 
-export const ThemeContext = createContext(themes.light); //variant without togglers inside nested components; more easy way
+export const ThemeContext = createContext({theme: themes.dark}); //variant without togglers inside nested components; more easy way
 
 /*export const ThemeContext = createContext({
     theme: themes.light,
