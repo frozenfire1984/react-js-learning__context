@@ -5,7 +5,7 @@ import './styles/style.css'
 
 function App() {
   //const [darkThemeMQ] = useState(window.matchMedia("(prefers-color-scheme: dark)"))
-  const [currentTheme, setCurrentTheme] = useState(themes.dark);
+  const [currentTheme, setCurrentTheme] = useState(themes.light);
   
   const toggleTheme = () => {
     setCurrentTheme((prevCurrentTheme) =>

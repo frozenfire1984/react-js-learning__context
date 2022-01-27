@@ -19,7 +19,7 @@ export const themes = {
     },
 }
 
-export const ThemeContext = createContext({theme: themes.dark}); //variant without togglers inside nested components; more easy way
+export const ThemeContext = createContext(); //variant without togglers inside nested components; more easy way
 
 /*export const ThemeContext = createContext({
     theme: themes.light,
