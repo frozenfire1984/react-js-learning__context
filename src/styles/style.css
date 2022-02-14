@@ -1,26 +1,27 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 #root {
-  display: contents;
-}
+  display: contents; }
 
 .global {
   flex: 1;
   display: inherit;
-  flex-direction: inherit;
-}
+  flex-direction: inherit; }
 
 .app {
-  flex: 1;
-}
-.app div {
-  border: 1px gray solid;
-  padding: 20px;
+  flex: 1; }
+  .app div {
+    border: 5px gray solid;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold; }
+
+.test.test {
   margin: 20px;
-}
+  border: 5px gray dotted;
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */

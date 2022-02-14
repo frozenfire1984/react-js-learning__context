@@ -18,8 +18,15 @@ body {
   flex: 1;
 
   div {
-    border: 1px gray solid;
+    border: 5px gray solid;
     padding: 20px;
     margin: 20px;
+    font-weight: bold;
   }
+}
+
+.test.test {
+  margin: 20px;
+  border: 5px gray dotted;
+  padding: 20px;
 }
